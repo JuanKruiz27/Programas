@@ -11,6 +11,34 @@
 		<li><a href="pag_2.html">Pagina numero 2</a></li>
 		<li><a href="pag_3.html">Pagina numero 3</a></li>
 	</ul>
-		
+	<h2>Llena el siguente formulario</h2>
+	<form>
+		<label for="nombre"><b>Nombre</b></label>
+		<input type="text" name="nombre" placeholder="Dijite el nombre">
+		<br/>
+		<label for="apellido"><b>Apellido</b></label>
+		<input type="text" name="apellido" placeholder="Dijite el apellido">
+		<br/>
+		<label for="nacionalidad"><b>Nacionalidad</b></label>
+		<select name="nacionalidad" id="">
+			<option value="colombia">Colombia</option>
+			<option value="ecuador">Ecuador</option>
+			<option value="brasil">Brasil</option>
+			<option value="otro">Otro</option>
+		</select>
+		<br/>
+		<label for="tema"><b>Tema a Aprender</b></label>
+		<br/>
+		<input type="radio" name="tema" value="colombia">Colombia<br/>
+		<input type="radio" name="tema" value="ecuador">Ecuador<br/>
+		<input type="radio" name="tema" value="brasil">Brasil<br/> 
+		<input type="radio" name="tema" value="otro">Otro<br/> 		
+		<br/>	
+		<label for="sugerencia"><b>Sugerencias</b></label>
+		<br>
+		<textarea name="sugerencia" id="" cols="20" rows="10" placeholder="Dijite sus sugerencias"></textarea>
+		<br/>
+		<input type="submit" value="Enviar">
+	</form>
 </body>
 </html>
